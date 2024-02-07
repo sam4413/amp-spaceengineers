@@ -1,5 +1,5 @@
 # Welcome to Torch on AMP!
-These files allows you to run TorchAPI on the CubeCoders AMP Panel.<br>
+These files allows you to run Space Engineers TorchAPI on the CubeCoders AMP Panel.<br>
 https://cubecoders.com/AMP
 ## You can:
 - Edit torch configs
