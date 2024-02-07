@@ -9,6 +9,11 @@ These files allows you to run TorchAPI on the CubeCoders AMP Panel.
 - Plugin listing is not available. You will need to manually install plugins and add them in via file manager
 - Editing plugin config is not supported.
 - You cannot send messages in console, you can only read them. This will be eventually fixed by having a compainion plugin.
+## Installation
+Drag the:`space-engineers-torch.kvp`, `space-engineers-torchconfig.json`, and `space-engineers-torchmetaconfig.json` files into your `C:\AMPDatastore\Instances\{ADS NAME}\Plugins\ADSModule\GenericTemplates` directory.<br>
+Then, restart your ADS server, and it should pop up when you create a new instance.<br>
+This will soon be on the official AMPTemplates list once all issues are worked out, so stay tuned. 
+
 ## Pictures
 ![Creating a Torch Instance](https://github.com/sam4413/amp-spaceengineers/assets/43707772/b56bc707-4326-45ac-8b69-e6ce45ad03e0)
 ![Torch Instance Running](https://github.com/sam4413/amp-spaceengineers/assets/43707772/7641041f-c82b-4870-9808-af4da809080e)
