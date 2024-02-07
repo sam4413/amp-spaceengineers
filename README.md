@@ -10,9 +10,10 @@ These files allows you to run TorchAPI on the CubeCoders AMP Panel.
 - Editing plugin config is not supported.
 - You cannot send messages in console, you can only read them. This will be eventually fixed by having a compainion plugin.
 ## Pictures
-![setorch1](https://github.com/sam4413/amp-spaceengineers/assets/43707772/7641041f-c82b-4870-9808-af4da809080e)
-![setorch2](https://github.com/sam4413/amp-spaceengineers/assets/43707772/1bfec400-a1ea-45e7-8d7e-7ca53857207c)
-![setorch3](https://github.com/sam4413/amp-spaceengineers/assets/43707772/a82afde5-0340-4ef8-a0a7-a33c790f9e5c)
+![Creating a Torch Instance](https://github.com/sam4413/amp-spaceengineers/assets/43707772/b56bc707-4326-45ac-8b69-e6ce45ad03e0)
+![Torch Instance Running](https://github.com/sam4413/amp-spaceengineers/assets/43707772/7641041f-c82b-4870-9808-af4da809080e)
+![Torch Console](https://github.com/sam4413/amp-spaceengineers/assets/43707772/1bfec400-a1ea-45e7-8d7e-7ca53857207c)
+![Torch Config](https://github.com/sam4413/amp-spaceengineers/assets/43707772/a82afde5-0340-4ef8-a0a7-a33c790f9e5c)
 
 <hr>
 Please note that these limitations are here mainly due to how AMP works and me being relatively new to making configs.<br>
