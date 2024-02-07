@@ -1,5 +1,6 @@
 # Welcome to Torch on AMP!
-These files allows you to run TorchAPI on the CubeCoders AMP Panel.
+These files allows you to run TorchAPI on the CubeCoders AMP Panel.<br>
+https://cubecoders.com/AMP
 ## You can:
 - Edit torch configs
 - Add / remove people on whitelist
