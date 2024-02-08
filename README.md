@@ -10,6 +10,7 @@ https://cubecoders.com/AMP
 - Plugin listing is not available. You will need to manually install plugins and add them in via file manager
 - Editing plugin config is not supported.
 - You cannot send messages in console, you can only read them. This will be eventually fixed by having a compainion plugin.
+- At the current moment, Windows 10/11 Home/Pro won't work because of how torch doesn't like being handled by the Network Service Account AMP Uses to run games. Windows Server 2019/2022 will work fine due to how user permissions are handled. Please note we are working with BishBash777 to get this fixed once and for all.
 ## Installation
 Drag the:`space-engineers-torch.kvp`, `space-engineers-torchconfig.json`, and `space-engineers-torchmetaconfig.json` files into your `C:\AMPDatastore\Instances\{ADS NAME}\Plugins\ADSModule\GenericTemplates` directory.<br>
 Then, restart your ADS server, and it should pop up when you create a new instance.<br>
