@@ -2611,7 +2611,7 @@
       "Description": "Defines how long should the Torch server wait until the game restarts if a game update is detected. Restart On Game Update must be true for this option to work.",
       "Keywords": "Restart,Update,Delay,Torch,Server",
       "FieldName": "GameUpdateRestartDelayMins",
-      "InputType": "checkbox",
+      "InputType": "number",
       "IsFlagArgument": false,
       "ParamFieldName": "/TorchConfig/GameUpdateRestartDelayMins",
       "IncludeInCommandLine": false,
