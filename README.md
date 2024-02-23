@@ -15,6 +15,9 @@ https://cubecoders.com/AMP
 Drag the:`space-engineers-torch.kvp`, `space-engineers-torchconfig.json`, and `space-engineers-torchmetaconfig.json` files into your `C:\AMPDatastore\Instances\{ADS NAME}\Plugins\ADSModule\GenericTemplates` directory.<br>
 Then, restart your ADS server, and it should pop up when you create a new instance.<br>
 This will soon be on the official AMPTemplates list once all issues are worked out, so stay tuned. 
+## Current issues
+- On initial install, a premade world will be downloaded from this repository. Torch makes it very annoyingly hard to get a premade world from default means. So until it is fixed on Torch, premade world files are on the repository.
+- If creating a new world, you will have to manually copy over the previous world (if applicable) or upload an existing world from either your local world, server, etc. Ensure `File Manager > Saves > LastSession.sbl` is correct.
 
 ## Pictures
 ![Creating a Torch Instance](https://github.com/sam4413/amp-spaceengineers/assets/43707772/b56bc707-4326-45ac-8b69-e6ce45ad03e0)
