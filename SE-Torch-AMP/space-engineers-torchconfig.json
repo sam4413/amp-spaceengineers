@@ -2620,20 +2620,6 @@
       "EnumValues": {}
 	},
 	{
-      "DisplayName": "Game Update Restart Delay Mins",
-      "Category": "SE - Torch",
-      "Description": "Defines how long should the Torch server wait until the game restarts if a game update is detected. Restart On Game Update must be true for this option to work.",
-      "Keywords": "Restart,Update,Delay,Torch,Server",
-      "FieldName": "GameUpdateRestartDelayMins",
-      "InputType": "checkbox",
-      "IsFlagArgument": false,
-      "ParamFieldName": "/TorchConfig/GameUpdateRestartDelayMins",
-      "IncludeInCommandLine": false,
-      "DefaultValue": "5",
-      "Placeholder": "5",
-      "EnumValues": {}
-	},
-	{
       "DisplayName": "Get Torch Updates",
       "Category": "SE - Torch",
       "Description": "Enables / Disables automatic updates to the Torch Server.",
