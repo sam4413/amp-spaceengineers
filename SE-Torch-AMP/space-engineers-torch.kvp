@@ -26,6 +26,7 @@ Meta.ReleaseNotes=
 Meta.BreakingReleaseNotes=
 Meta.OriginalSource=CubeCoders-AMPTemplates
 Meta.ImportableExtensions=[]
+Meta.AppConfigId=db79e8ff-12bb-3nht-r5l0-0f55be436ge2
 App.DisplayName=Space Engineers Torch
 App.RootDir=./space-engineers-generic/
 App.BaseDirectory=./space-engineers-generic/298740/
