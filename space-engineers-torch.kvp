@@ -1,7 +1,7 @@
 App.AdminMethod=STDIO
-App.ApplicationPort1=0
-App.ApplicationPort2=0
-App.RemoteAdminPort=0
+App.ApplicationPort1=27016
+App.ApplicationPort2=8766
+App.RemoteAdminPort=8080
 App.Ports=[{"Protocol":1,"Port":27016,"Offset":0,"Range":1,"Ref":"ApplicationPort1","Name":"Server Port","Description":"Port used for main game traffic","ChildPorts":null},{"Protocol":1,"Port":8766,"Offset":0,"Range":1,"Ref":"ApplicationPort2","Name":"Steam Port","Description":"Port used for Steam communications","ChildPorts":null},{"Protocol":2,"Port":8080,"Offset":0,"Range":1,"Ref":"RemoteAdminPort","Name":"Remote API Port","Description":"Port used to access the API","ChildPorts":null}]
 App.ApplicationReadyMode=RegexMatch
 App.BaseDirectory=./space-engineers-torch/298740/
