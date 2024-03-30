@@ -1,5 +1,5 @@
 [
-    {
+  {
       "DisplayName": "Binding IP",
       "Category": "Hidden Settings",
       "Description": "Must match AMP's Binding IP",
@@ -11,8 +11,8 @@
       "IncludeInCommandLine": false,
       "EnumValues": {},
       "Hidden": true
-    },
-    {
+  },
+  {
       "DisplayName": "Server Port",
       "Category": "Hidden Settings",
       "Description": "Must match AMP's Application Port 1",
@@ -24,8 +24,8 @@
       "IncludeInCommandLine": false,
       "EnumValues": {},
       "Hidden": true
-    },
-    {
+  },
+  {
       "DisplayName": "Steam Port",
       "Category": "Hidden Settings",
       "Description": "Must match AMP's Application Port 2",
@@ -37,8 +37,8 @@
       "IncludeInCommandLine": false,
       "EnumValues": {},
       "Hidden": true
-    },
-    {
+  },
+  {
       "DisplayName": "Remote API Port",
       "Category": "Hidden Settings",
       "Description": "Must match AMP's Remote Admin Port",
@@ -50,8 +50,8 @@
       "IncludeInCommandLine": false,
       "EnumValues": {},
       "Hidden": true
-    },
-    {
+  },
+  {
       "DisplayName": "Online Mode",
       "Category": "Hidden Settings",
       "Description": "Set the online mode of the game.",
@@ -64,8 +64,8 @@
       "EnumValues": {},
       "DefaultValue": "PUBLIC",
       "Hidden": true
-    },
-    {
+  },
+  {
       "DisplayName": "Server Release Stream",
       "Category": "SteamCMD and Updates",
       "Description": "Which release stream should be used to update the server. Choose a custom release on [SteamDB](https://steamdb.info/app/298740/depots/) and enter the Branch Name below.",
@@ -77,8 +77,8 @@
       "EnumValues": {},
       "DefaultValue": "public",
       "Placeholder": "public"
-    },
-    {
+  },
+  {
       "DisplayName": "Block Limits Mode",
       "Category": "SE - Block Limits",
       "Description": "Defines block limits mode.",
@@ -90,13 +90,13 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "GLOBALLY",
       "EnumValues": {
-        "NONE": "None",
-        "GLOBALLY": "Globally",
-        "PER_FACTION": "Per Faction",
-        "PER_PLAYER": "Per Player"
+          "NONE": "None",
+          "GLOBALLY": "Globally",
+          "PER_FACTION": "Per Faction",
+          "PER_PLAYER": "Per Player"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Max Blocks Per Player",
       "Category": "SE - Block Limits",
       "Description": "The maximum number of blocks per player. (0 - 2147483647)",
@@ -112,8 +112,8 @@
       "MaxValue": "2147483647",
       "Suffix": "Blocks",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Max Factions Count",
       "Category": "SE - Block Limits",
       "Description": "The maximum number of existing factions in the world. (0 - 2147483647)",
@@ -129,8 +129,8 @@
       "MaxValue": "2147483647",
       "Suffix": "Factions",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Max Grid Blocks",
       "Category": "SE - Block Limits",
       "Description": "The maximum number of blocks in one grid. (0 - 2147483647)",
@@ -146,8 +146,8 @@
       "MaxValue": "2147483647",
       "Suffix": "Blocks",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Pirate PCU",
       "Category": "SE - Block Limits",
       "Description": "Number of Performance Cost Units allocated for pirate faction. (0 - 2147483647)",
@@ -163,8 +163,8 @@
       "MaxValue": "2147483647",
       "Suffix": "Units",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "World PCU",
       "Category": "SE - Block Limits",
       "Description": "The total number of Performance Cost Units in the world. (0 - 2147483647)",
@@ -180,8 +180,8 @@
       "MaxValue": "2147483647",
       "Suffix": "Units",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Destructible Blocks",
       "Category": "SE - Environment",
       "Description": "Enables destruction feature for the blocks.",
@@ -193,11 +193,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Oxygen",
       "Category": "SE - Environment",
       "Description": "Enables oxygen in the world.",
@@ -209,11 +209,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Airtightness",
       "Category": "SE - Environment",
       "Description": "Enables airtightness in the world.",
@@ -225,11 +225,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Sub-Grid Damage",
       "Category": "SE - Environment",
       "Description": "Enables sub-grid damage.",
@@ -241,11 +241,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Sun Rotation",
       "Category": "SE - Environment",
       "Description": "Enables sun rotation.",
@@ -257,11 +257,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Friendly Missile Damage",
       "Category": "SE - Environment",
       "Description": "Enables explosion damage from missiles being applied to its own grid.",
@@ -273,11 +273,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Voxel Destruction",
       "Category": "SE - Environment",
       "Description": "Enables voxel destructions.",
@@ -289,11 +289,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Environment Hostility",
       "Category": "SE - Environment",
       "Description": "Defines hostility of the environment.",
@@ -305,13 +305,13 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "SAFE",
       "EnumValues": {
-        "SAFE": "Safe",
-        "NORMAL": "Normal",
-        "CATACLYSM": "Cataclysm",
-        "CATACLYSM_UNREAL": "Cataclysm - Unreal"
+          "SAFE": "Safe",
+          "NORMAL": "Normal",
+          "CATACLYSM": "Cataclysm",
+          "CATACLYSM_UNREAL": "Cataclysm - Unreal"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Max Floating Objects",
       "Category": "SE - Environment",
       "Description": "The maximum number of existing floating objects. (2 - 1024)",
@@ -327,8 +327,8 @@
       "MaxValue": "1024",
       "Suffix": "Objects",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Physics Iterations",
       "Category": "SE - Environment",
       "Description": "Defines the number of physics iterations. (2 - 32)",
@@ -344,8 +344,8 @@
       "MaxValue": "32",
       "Suffix": "Iterations",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Realistic Sound",
       "Category": "SE - Environment",
       "Description": "Enable realistic sounds.",
@@ -357,11 +357,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "False": "false",
-        "True": "true"
+          "False": "false",
+          "True": "true"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Unsupported Stations",
       "Category": "SE - Environment",
       "Description": "By enabling this option grids will no longer turn dynamic when disconnected from static grids.",
@@ -373,11 +373,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Sun Rotation Interval",
       "Category": "SE - Environment",
       "Description": "Defines interval of one rotation of the sun. (0 - 1440)",
@@ -393,8 +393,8 @@
       "MaxValue": "1440",
       "Suffix": "Minutes",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Sync Distance",
       "Category": "SE - Environment",
       "Description": "Defines synchronization distance in multiplayer. High distance can slow down server drastically. Use with caution. (1000 - 20000)",
@@ -410,8 +410,8 @@
       "MaxValue": "20000",
       "Suffix": "Meters",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Bot Limit",
       "Category": "SE - Environment",
       "Description": "Maximum number of organic bots in the world. (16 - 1024)",
@@ -427,8 +427,8 @@
       "MaxValue": "1024",
       "Suffix": "Bots",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Voxel Generator Version",
       "Category": "SE - Environment",
       "Description": "Selects the voxel generator version.",
@@ -440,14 +440,14 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "4",
       "EnumValues": {
-        "0": "0",
-        "1": "1",
-        "2": "2",
-        "3": "3",
-        "4": "4"
+          "0": "0",
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "4"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Weather System",
       "Category": "SE - Environment",
       "Description": "Enables automatic weather generation on planets.",
@@ -459,11 +459,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "World Size",
       "Category": "SE - Environment",
       "Description": "Defines the size of the world. (0 - 2147483647)",
@@ -479,8 +479,8 @@
       "MaxValue": "2147483647",
       "Suffix": "Kilometers",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Server Name",
       "Category": "SE - General",
       "Description": "Server Name displayed in the server browser.",
@@ -493,8 +493,8 @@
       "DefaultValue": "AMP Torch Powered Server",
       "Placeholder": "AMP Torch Powered Server",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "World Name",
       "Category": "SE - General",
       "Description": "World Name displayed in server browser.",
@@ -507,8 +507,8 @@
       "DefaultValue": "World",
       "Placeholder": "World",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Steam Group ID",
       "Category": "SE - General",
       "Description": "Steam Group ID for friends only",
@@ -521,8 +521,8 @@
       "DefaultValue": "0",
       "Placeholder": "123456789012345678",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Server Password Hash",
       "Category": "SE - General",
       "Description": "Generate the password hash using the [Password Generator](https://sepg.einarjegorov.com/)",
@@ -534,8 +534,8 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Server Password Salt",
       "Category": "SE - General",
       "Description": "Generate the password salt using the [Password Generator](https://sepg.einarjegorov.com/)",
@@ -547,8 +547,8 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Pause Game When Empty",
       "Category": "SE - General",
       "Description": "",
@@ -560,11 +560,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Ignore Last Session",
       "Category": "SE - General",
       "Description": "This will ignore the save file and load based on the config every time. This should not be used for survival mode, but can be useful to provide a new world each start for battle sessions.",
@@ -576,11 +576,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Remote API",
       "Category": "SE - General",
       "Description": "Enable/Disable the remote API to manage the server from a browser. ***Does not work in AMP on Windows in service mode***",
@@ -592,11 +592,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Remote API Security Key",
       "Category": "SE - General",
       "Description": "The password used to access the Remote API.",
@@ -608,8 +608,8 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Server Description",
       "Category": "SE - General",
       "Description": "Server Description displayed in the server browser.",
@@ -622,8 +622,8 @@
       "DefaultValue": "My AMP Powered Space Engineers Server",
       "Placeholder": "My AMP Powered Space Engineers Server",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Verbose Network Logging",
       "Category": "SE - General",
       "Description": "Enables additional network logging.",
@@ -635,11 +635,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Console Compatibility",
       "Category": "SE - General",
       "Description": "Enables console players to cross-play with PC. Ensure \"Networking Type\" is set to EOS.",
@@ -651,11 +651,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Networking Type",
       "Category": "SE - General",
       "Description": "EOS must be selected for cross-platform play. Use in-game server browser filters to display Steam or EOS server lists.",
@@ -667,11 +667,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "steam",
       "EnumValues": {
-        "steam": "Steam",
-        "eos": "EOS"
+          "steam": "Steam",
+          "eos": "EOS"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Chat Anti-Spam",
       "Category": "SE - General",
       "Description": "Enables anti-spam measures for in-game chat.",
@@ -683,11 +683,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Same Message Timeout",
       "Category": "SE - General",
       "Description": "Time between sending the same message before getting timed out.",
@@ -701,8 +701,8 @@
       "Placeholder": "30",
       "Suffix": "Seconds",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Spam Messages Time",
       "Category": "SE - General",
       "Description": "Time between sending multiple messages before getting timed out.",
@@ -716,8 +716,8 @@
       "Placeholder": "0.5",
       "Suffix": "Seconds",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Spam Messages Timeout",
       "Category": "SE - General",
       "Description": "How long to time out a user for spamming.",
@@ -731,8 +731,8 @@
       "Placeholder": "60",
       "Suffix": "Seconds",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Autodetect Mod Dependencies",
       "Category": "SE - General",
       "Description": "The server will detect mod dependencies and automatically download on startup.",
@@ -744,11 +744,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Message Of The Day",
       "Category": "SE - General",
       "Description": "",
@@ -761,8 +761,8 @@
       "DefaultValue": "Welcome to my Space Engineers Server, powered by AMP!",
       "Placeholder": "Welcome to my Space Engineers Server, powered by AMP!",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Message Of The Day URL",
       "Category": "SE - General",
       "Description": "",
@@ -775,8 +775,8 @@
       "DefaultValue": "",
       "Placeholder": "https://cubecoders.com/AMP",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Log Chat",
       "Category": "SE - General",
       "Description": "Save chat messages to the log file.",
@@ -788,11 +788,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Select World or Scenario",
       "Category": "SE - General",
       "Description": "Sets the World or Scenario to base the game on. If \"Custom\" is chosen, you must also fill in the Custom World or Custom Scenario fields.",
@@ -804,40 +804,40 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "../Content/CustomWorlds/Star System",
       "EnumValues": {
-        "../Content/CustomWorlds/Alien Planet/PC": "Alien Planet [PC]",
-        "../Content/CustomWorlds/Alien System/XBox": "Alien System [XBOX]",
-        "../Content/CustomWorlds/Asteroid Armory": "Asteroid Armory",
-        "../Content/CustomWorlds/Crashed Red Ship": "Crashed Red Ship",
-        "../Content/CustomWorlds/{{CustomWorld}}": "Custom World",
-        "../Content/CustomWorlds/{{CustomScenario}}": "Custom Scenario",
-        "../Content/CustomWorlds/Dead Drop Arena": "Dead Drop Arena [PC]",
-        "../Content/CustomWorlds/Distant Moons": "Distant Moons [XBOX]",
-        "../Content/CustomWorlds/Earth Planet/PC": "Earth Planet [PC]",
-        "../Content/CustomWorlds/Earth Planet/XBox": "Earth Planet [XBOX]",
-        "../Content/CustomWorlds/Empty World": "Empty World",
-        "../Content/CustomWorlds/Green Station": "Green Station",
-        "../Content/CustomWorlds/Home System": "Home System",
-        "../Content/Scenarios/Learning to Survive": "Learning to Survive [Scenario]",
-        "../Content/CustomWorlds/Lone Survivor": "Lone Survivor",
-        "../Content/Scenarios/Lost Colony/PC": "Lost Colony [Scenario] [PC]",
-        "../Content/CustomWorlds/Mars Planet/PC": "Mars Planet [PC]",
-        "../Content/CustomWorlds/Mars Planet/XBox": "Mars Planet [XBOX]",
-        "../Content/CustomWorlds/Moon Base/PC": "Moon Base [PC]",
-        "../Content/CustomWorlds/Moon Base/XBox": "Moon Base [XBOX]",
-        "../Content/Scenarios/Never Surrender": "Never Surrender [Scenario]",
-        "../Content/CustomWorlds/Petram Orbiter": "Petram Orbiter",
-        "../Content/CustomWorlds/Red Ship": "Red Ship",
-        "../Content/CustomWorlds/Rival Platforms": "Rival Platforms",
-        "../Content/Scenarios/Scrap Race/PC": "Scrap Race [Scenario] [PC]",
-        "../Content/Scenarios/Scrap Race/XBox": "Scrap Race [Scenario] [XBOX]",
-        "../Content/Scenarios/Sparks of the Future/PC": "Sparks of the Future [Scenario] [PC]",
-        "../Content/Scenarios/Sparks of the Future/XBox": "Sparks of the Future [Scenario] [XBOX]",
-        "../Content/CustomWorlds/Star System": "Star System",
-        "../Content/Scenarios/The First Jump": "The First Jump [Scenario]",
-        "../Content/Scenarios/Warfare": "Warfare [Scenario]"
+          "../Content/CustomWorlds/Alien Planet/PC": "Alien Planet [PC]",
+          "../Content/CustomWorlds/Alien System/XBox": "Alien System [XBOX]",
+          "../Content/CustomWorlds/Asteroid Armory": "Asteroid Armory",
+          "../Content/CustomWorlds/Crashed Red Ship": "Crashed Red Ship",
+          "../Content/CustomWorlds/{{CustomWorld}}": "Custom World",
+          "../Content/CustomWorlds/{{CustomScenario}}": "Custom Scenario",
+          "../Content/CustomWorlds/Dead Drop Arena": "Dead Drop Arena [PC]",
+          "../Content/CustomWorlds/Distant Moons": "Distant Moons [XBOX]",
+          "../Content/CustomWorlds/Earth Planet/PC": "Earth Planet [PC]",
+          "../Content/CustomWorlds/Earth Planet/XBox": "Earth Planet [XBOX]",
+          "../Content/CustomWorlds/Empty World": "Empty World",
+          "../Content/CustomWorlds/Green Station": "Green Station",
+          "../Content/CustomWorlds/Home System": "Home System",
+          "../Content/Scenarios/Learning to Survive": "Learning to Survive [Scenario]",
+          "../Content/CustomWorlds/Lone Survivor": "Lone Survivor",
+          "../Content/Scenarios/Lost Colony/PC": "Lost Colony [Scenario] [PC]",
+          "../Content/CustomWorlds/Mars Planet/PC": "Mars Planet [PC]",
+          "../Content/CustomWorlds/Mars Planet/XBox": "Mars Planet [XBOX]",
+          "../Content/CustomWorlds/Moon Base/PC": "Moon Base [PC]",
+          "../Content/CustomWorlds/Moon Base/XBox": "Moon Base [XBOX]",
+          "../Content/Scenarios/Never Surrender": "Never Surrender [Scenario]",
+          "../Content/CustomWorlds/Petram Orbiter": "Petram Orbiter",
+          "../Content/CustomWorlds/Red Ship": "Red Ship",
+          "../Content/CustomWorlds/Rival Platforms": "Rival Platforms",
+          "../Content/Scenarios/Scrap Race/PC": "Scrap Race [Scenario] [PC]",
+          "../Content/Scenarios/Scrap Race/XBox": "Scrap Race [Scenario] [XBOX]",
+          "../Content/Scenarios/Sparks of the Future/PC": "Sparks of the Future [Scenario] [PC]",
+          "../Content/Scenarios/Sparks of the Future/XBox": "Sparks of the Future [Scenario] [XBOX]",
+          "../Content/CustomWorlds/Star System": "Star System",
+          "../Content/Scenarios/The First Jump": "The First Jump [Scenario]",
+          "../Content/Scenarios/Warfare": "Warfare [Scenario]"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Custom World",
       "Category": "SE - General",
       "Description": "Set this to the name of the folder you created under the \"CustomWorlds\" directory.",
@@ -849,8 +849,8 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Custom Scenario",
       "Category": "SE - General",
       "Description": "Set this to the name of the folder you created under the \"Scenarios\" directory.",
@@ -862,8 +862,8 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "View Distance",
       "Category": "SE - General",
       "Description": "Set the distance of how far each client can see objects.",
@@ -877,8 +877,8 @@
       "Placeholder": "15000",
       "Suffix": "Meters",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Procedural Density",
       "Category": "SE - General",
       "Description": "Defines density of the procedurally generated content.",
@@ -891,8 +891,8 @@
       "DefaultValue": "0.35",
       "Placeholder": "0.35",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Procedural Seed",
       "Category": "SE - General",
       "Description": "Defines unique starting seed for the procedurally generated content.",
@@ -904,8 +904,8 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "0",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Scenario Edit Mode",
       "Category": "SE - General",
       "Description": "",
@@ -917,11 +917,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Scenario",
       "Category": "SE - General",
       "Description": "The left side of the screen presents various options for the starting conditions of the world.",
@@ -933,11 +933,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Can Join Running",
       "Category": "SE - General",
       "Description": "Whether players can join a running server.",
@@ -949,11 +949,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Start In Respawn Screen",
       "Category": "SE - General",
       "Description": "",
@@ -965,11 +965,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Flora Density Multiplier",
       "Category": "SE - General",
       "Description": "",
@@ -983,8 +983,8 @@
       "Placeholder": "1",
       "Suffix": "x",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Structural Simulation",
       "Category": "SE - General",
       "Description": "",
@@ -996,11 +996,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Max Active Fracture Pieces",
       "Category": "SE - General",
       "Description": "",
@@ -1014,8 +1014,8 @@
       "Placeholder": "50",
       "Suffix": "Pieces",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Deposits Count Coefficient",
       "Category": "SE - General",
       "Description": "",
@@ -1028,8 +1028,8 @@
       "DefaultValue": "2",
       "Placeholder": "2",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Deposit Size Denominator",
       "Category": "SE - General",
       "Description": "",
@@ -1042,8 +1042,8 @@
       "DefaultValue": "30",
       "Placeholder": "30",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Adjustable Max Vehicle Speed",
       "Category": "SE - General",
       "Description": "",
@@ -1055,11 +1055,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Faction Player Names",
       "Category": "SE - General",
       "Description": "",
@@ -1071,11 +1071,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Asteroid Amount",
       "Category": "SE - General",
       "Description": "",
@@ -1089,8 +1089,8 @@
       "Placeholder": "0",
       "Suffix": "Asteroids",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Assembler Efficiency",
       "Category": "SE - Multipliers",
       "Description": "The multiplier for assembler efficiency. (1 - 100)",
@@ -1105,8 +1105,8 @@
       "MinValue": "1",
       "MaxValue": "100",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Assembler Speed",
       "Category": "SE - Multipliers",
       "Description": "The multiplier for assembler speed. (1 - 100)",
@@ -1121,8 +1121,8 @@
       "MinValue": "1",
       "MaxValue": "100",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Blocks Inventory Size",
       "Category": "SE - Multipliers",
       "Description": "The multiplier for inventory size for the blocks. (1 - 100)",
@@ -1137,8 +1137,8 @@
       "MinValue": "1",
       "MaxValue": "100",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Grinder Speed",
       "Category": "SE - Multipliers",
       "Description": "The multiplier for grinder speed. (0 - 100)",
@@ -1153,8 +1153,8 @@
       "MinValue": "0",
       "MaxValue": "100",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Hacking Speed",
       "Category": "SE - Multipliers",
       "Description": "The multiplier for hacking speed. (0 - 100)",
@@ -1169,8 +1169,8 @@
       "MinValue": "0",
       "MaxValue": "100",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Harvest Ratio Multiplier",
       "Category": "SE - Multipliers",
       "Description": "The ratio multiplier for drills. (0 - 100)",
@@ -1185,8 +1185,8 @@
       "MinValue": "0",
       "MaxValue": "100",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Character Inventory Size",
       "Category": "SE - Multipliers",
       "Description": "The multiplier for the inventory size for the characters. (1 - 100)",
@@ -1201,8 +1201,8 @@
       "MinValue": "1",
       "MaxValue": "100",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Refinery Speed",
       "Category": "SE - Multipliers",
       "Description": "The multiplier for refinery speed. (1 - 100)",
@@ -1217,8 +1217,8 @@
       "MinValue": "1",
       "MaxValue": "100",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Welder Speed",
       "Category": "SE - Multipliers",
       "Description": "The multiplier for welder speed. (0 - 100)",
@@ -1233,8 +1233,8 @@
       "MinValue": "0",
       "MaxValue": "100",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Cargo Ships",
       "Category": "SE - NPCs",
       "Description": "Enables spawning of cargo ships.",
@@ -1246,11 +1246,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Economy Tick Time",
       "Category": "SE - NPCs",
       "Description": "Time period between two economy updates. (300 - 3600)",
@@ -1266,8 +1266,8 @@
       "MaxValue": "3600",
       "Suffix": "Seconds",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Drones",
       "Category": "SE - NPCs",
       "Description": "Enable spawning of drones in the world.",
@@ -1279,11 +1279,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Max Drones",
       "Category": "SE - General",
       "Description": "",
@@ -1297,8 +1297,8 @@
       "Placeholder": "5",
       "Suffix": "Drones",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Economy",
       "Category": "SE - NPCs",
       "Description": "Enables economy features.",
@@ -1310,11 +1310,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Encounters",
       "Category": "SE - NPCs",
       "Description": "Enables random encounters in the world.",
@@ -1326,11 +1326,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Spiders",
       "Category": "SE - NPCs",
       "Description": "Enables spawning of spiders in the world.",
@@ -1342,11 +1342,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Wolves",
       "Category": "SE - NPCs",
       "Description": "Enables spawning of wolves in the world.",
@@ -1358,11 +1358,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Stations Inner Radius",
       "Category": "SE - NPCs",
       "Description": "The inner radius [m] (center is in 0,0,0), where stations can spawn. Does not affect planet-bound stations (Surface Outposts and Orbital Stations). (200000 - 9223372036854780000)",
@@ -1377,8 +1377,8 @@
       "MinValue": "200000",
       "Suffix": "Meters",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Stations Outer Radius Start",
       "Category": "SE - NPCs",
       "Description": "The outer radius [m] (center is in 0,0,0), where stations can spawn. Does not affect planet-bound stations (Surface Outposts and Orbital Stations). (500000 - 9223372036854780000)",
@@ -1393,8 +1393,8 @@
       "MinValue": "500000",
       "Suffix": "Meters",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Stations Outer Radius End",
       "Category": "SE - NPCs",
       "Description": "The outer radius [m] (center is in 0,0,0), where stations can spawn. Does not affect planet-bound stations (Surface Outposts and Orbital Stations). (1000000 - 9223372036854780000)",
@@ -1409,8 +1409,8 @@
       "MinValue": "1000000",
       "Suffix": "Meters",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "NPC Factions Count",
       "Category": "SE - NPCs",
       "Description": "The number of NPC factions generated on the start of the world. (8 - 100)",
@@ -1426,8 +1426,8 @@
       "MaxValue": "100",
       "Suffix": "Factions",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Adaptive Simulation Quality",
       "Category": "SE - Others",
       "Description": "Enables adaptive simulation quality system. This system is useful if you have a lot of voxel deformations in the world and a low simulation speed.",
@@ -1439,11 +1439,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Autosave Interval",
       "Category": "SE - Others",
       "Description": "Defines autosave interval.",
@@ -1457,8 +1457,8 @@
       "Placeholder": "5",
       "Suffix": "Minutes",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Drop Containers",
       "Category": "SE - Others",
       "Description": "Enable drop containers (unknown signals).",
@@ -1470,11 +1470,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Convert To Station",
       "Category": "SE - Others",
       "Description": "Enables possibility of converting grid to station.",
@@ -1486,11 +1486,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Good.bot Hints",
       "Category": "SE - Others",
       "Description": "Enables Good.bot hints in the world. If user has diabled hints, this will not override that.",
@@ -1502,11 +1502,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Ingame Scripts",
       "Category": "SE - Others",
       "Description": "Allows scripts loaded from in game computer terminals to work.",
@@ -1518,11 +1518,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Scripter Role",
       "Category": "SE - Others",
       "Description": "Adds a Scritper role, only Scripters and higher ranks will be able to paste and modify scripts.",
@@ -1534,11 +1534,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Match",
       "Category": "SE - Others",
       "Description": "Enable component handling the match.",
@@ -1550,11 +1550,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Remote Grid Removal",
       "Category": "SE - Others",
       "Description": "Enables possibility to remove grid remotely from the world by an author.",
@@ -1566,11 +1566,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Progression",
       "Category": "SE - Others",
       "Description": "Enables research progression.",
@@ -1582,11 +1582,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Respawn Ships",
       "Category": "SE - Others",
       "Description": "Enables respawn ships.",
@@ -1598,11 +1598,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Saving From Menu",
       "Category": "SE - Others",
       "Description": "Enables saving from the menu.",
@@ -1614,11 +1614,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Selective Physics Updates",
       "Category": "SE - Others",
       "Description": "When enabled game will update physics only in the specific clusters, which are necessary.",
@@ -1630,11 +1630,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Spectator Camera",
       "Category": "SE - Others",
       "Description": "Enables spectator camera.",
@@ -1646,11 +1646,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Supergridding",
       "Category": "SE - Others",
       "Description": "Allows super gridding exploit to be used.",
@@ -1662,11 +1662,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Team Score Counters",
       "Category": "SE - Others",
       "Description": "Show team scores at the top of the screen.",
@@ -1678,11 +1678,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Voxel Hand",
       "Category": "SE - Others",
       "Description": "Enables voxel hand.",
@@ -1694,11 +1694,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Experimental Mode",
       "Category": "SE - Others",
       "Description": "Enables experimental mode.",
@@ -1710,11 +1710,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Game Mode",
       "Category": "SE - Others",
       "Description": "The type of the game mode.",
@@ -1726,11 +1726,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "Survival",
       "EnumValues": {
-        "Creative": "Creative",
-        "Survival": "Survival"
+          "Creative": "Creative",
+          "Survival": "Survival"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Infinite Ammunition in Survival",
       "Category": "SE - Others",
       "Description": "Enables infinite ammunition in survival game mode.",
@@ -1742,11 +1742,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "PreMatch Duration",
       "Category": "SE - Others",
       "Description": "Duration of PreMatch phase of the match. (0 - 60000)",
@@ -1762,8 +1762,8 @@
       "MaxValue": "60000",
       "Suffix": "Minutes",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Match Duration",
       "Category": "SE - Others",
       "Description": "Duration of Match phase of the match. (0 - 60000)",
@@ -1779,8 +1779,8 @@
       "MaxValue": "60000",
       "Suffix": "Minutes",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Post Match Duration",
       "Category": "SE - Others",
       "Description": "Duration of Post Match phase of the match. (0 - 60000)",
@@ -1796,8 +1796,8 @@
       "MaxValue": "60000",
       "Suffix": "Minutes",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Max Backup Saves",
       "Category": "SE - Others",
       "Description": "Max number of backups",
@@ -1811,8 +1811,8 @@
       "Placeholder": "5",
       "Suffix": "Saves",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Min Drop Container Respawn Time",
       "Category": "SE - Others",
       "Description": "Defines minimum respawn time for drop containers.",
@@ -1826,8 +1826,8 @@
       "Placeholder": "5",
       "Suffix": "Minutes",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Max Drop Container Respawn Time",
       "Category": "SE - Others",
       "Description": "Defines maximum respawn time for drop containers.",
@@ -1841,8 +1841,8 @@
       "Placeholder": "20",
       "Suffix": "Minutes",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Max Planet Types",
       "Category": "SE - Others",
       "Description": "Limit maximum number of types of planets in the world.",
@@ -1856,8 +1856,8 @@
       "Placeholder": "99",
       "Suffix": "Types",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Offensive Words Filtering",
       "Category": "SE - Others",
       "Description": "Filter offensive words from all input methods.",
@@ -1869,11 +1869,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Predefined Asteroids",
       "Category": "SE - Others",
       "Description": "To conserve memory, predefined asteroids has to be disabled on consoles.",
@@ -1885,11 +1885,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Remove Respawn Ships on Logoff",
       "Category": "SE - Others",
       "Description": "When enabled respawn ship is removed after player logout.",
@@ -1901,11 +1901,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Thruster Damage",
       "Category": "SE - Others",
       "Description": "Enables thruster damage.",
@@ -1917,11 +1917,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Use Console PCU",
       "Category": "SE - Others",
       "Description": "To conserve memory, some of the blocks have different PCU values for consoles.",
@@ -1933,11 +1933,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Weapons",
       "Category": "SE - Others",
       "Description": "Enables weapons.",
@@ -1949,11 +1949,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Auto Healing",
       "Category": "SE - Players",
       "Description": "Auto-healing heals players only in oxygen environments and during periods of not taking damage.",
@@ -1965,11 +1965,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Backpack Despawn Timer",
       "Category": "SE - Players",
       "Description": "Sets the timer (minutes) for the backup to be removed from the world. Default is 5 minutes. (0 - 10)",
@@ -1985,8 +1985,8 @@
       "MaxValue": "10",
       "Suffix": "Minutes",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Character Speed Multiplier",
       "Category": "SE - Players",
       "Description": "Character speed multiplier. (.75 - 1)",
@@ -2001,8 +2001,8 @@
       "MinValue": "0",
       "MaxValue": "1",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Enable 3rd Person Camera",
       "Category": "SE - Players",
       "Description": "Enables 3rd person camera.",
@@ -2014,11 +2014,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Autorespawn",
       "Category": "SE - Players",
       "Description": "Enables automatic respawn at nearest available respawn point.",
@@ -2030,11 +2030,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Bounty Contracts",
       "Category": "SE - Players",
       "Description": "If enabled bounty contracts will be available on stations.",
@@ -2046,11 +2046,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Copy & Paste",
       "Category": "SE - Players",
       "Description": "Allows players to copy a ship, rover, station, and paste the copy into the world.",
@@ -2062,11 +2062,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Gamepad Aim Assist",
       "Category": "SE - Players",
       "Description": "Enables aim assist for gamepad.",
@@ -2078,11 +2078,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Jetpack",
       "Category": "SE - Players",
       "Description": "Enables jetpack.",
@@ -2094,11 +2094,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable PCU Trading",
       "Category": "SE - Players",
       "Description": "Enables trading of PCUs between players or factions depending on PCU settings.",
@@ -2110,11 +2110,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Weapon Recoil",
       "Category": "SE - Players",
       "Description": "Enables weapon recoil.",
@@ -2126,11 +2126,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Tool Shake",
       "Category": "SE - Players",
       "Description": "Enables tool shake feature.",
@@ -2142,11 +2142,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Environment Damage Multiplier",
       "Category": "SE - Players",
       "Description": "This multiplier only applies for damage caused to the player by the environment. (max 2)",
@@ -2159,8 +2159,8 @@
       "DefaultValue": "1",
       "MaxValue": "2",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Family Sharing",
       "Category": "SE - Players",
       "Description": "Enables shared accounts to join multiplayer games.",
@@ -2172,11 +2172,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Max Players",
       "Category": "SE - Players",
       "Description": "The maximum number of connected players. (2 - 64)",
@@ -2192,8 +2192,8 @@
       "MaxValue": "64",
       "Suffix": "Players",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Optimal Respawn Distance",
       "Category": "SE - Players",
       "Description": "Sets optimal distance in meters the game should take into consideration when spawning new player near others.",
@@ -2207,8 +2207,8 @@
       "Placeholder": "16000",
       "Suffix": "Meters",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Permanent Death",
       "Category": "SE - Players",
       "Description": "Enables permanent death.",
@@ -2220,11 +2220,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Reset Ownership",
       "Category": "SE - Players",
       "Description": "Reset ownership of all blocks to nobody.",
@@ -2236,11 +2236,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Show Player Names On HUD",
       "Category": "SE - Players",
       "Description": "If enabled, nearby players will have their names displayed.",
@@ -2252,11 +2252,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Respawn Ship Time Multiplier",
       "Category": "SE - Players",
       "Description": "The multiplier for respawn ship timer. (0 - 100)",
@@ -2271,8 +2271,8 @@
       "MinValue": "0",
       "MaxValue": "100",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Spawn With Tools",
       "Category": "SE - Players",
       "Description": "Enables spawning with tools in the inventory.",
@@ -2284,11 +2284,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Friendly Fire",
       "Category": "SE - PvP",
       "Description": "Enables friendly fire damage.",
@@ -2300,11 +2300,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Enable Team Balancing",
       "Category": "SE - PvP",
       "Description": "Enables automatic team balancing.",
@@ -2316,11 +2316,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "AFK Timeout",
       "Category": "SE - Trash Removal",
       "Description": "Defines time in minutes after which inactive players will be kicked. 0 is off.",
@@ -2334,8 +2334,8 @@
       "Placeholder": "0",
       "Suffix": "Minutes",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Block Count Threshold",
       "Category": "SE - Trash Removal",
       "Description": "Defines block count threshold for trash removal system.",
@@ -2349,8 +2349,8 @@
       "Placeholder": "20",
       "Suffix": "Blocks",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Optimal Grid Count",
       "Category": "SE - Trash Removal",
       "Description": "By setting this, server will keep number of grids around this value. !WARNING! It ignores Powered and Fixed flags, Block count and lowers Distance from player. Set to 0 to disable.",
@@ -2364,8 +2364,8 @@
       "Placeholder": "0",
       "Suffix": "Grids",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Character Removal Threshold",
       "Category": "SE - Trash Removal",
       "Description": "Defines character removal threshold for trash removal system. If player disconnects it will remove their character after this time. Set to 0 to disable.",
@@ -2379,8 +2379,8 @@
       "Placeholder": "15",
       "Suffix": "Minutes",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Player Distance Threshold",
       "Category": "SE - Trash Removal",
       "Description": "Defines Player Distance Threshold for trash removal system.",
@@ -2394,8 +2394,8 @@
       "Placeholder": "500",
       "Suffix": "Meters",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Player Inactivity Threshold",
       "Category": "SE - Trash Removal",
       "Description": "Defines player inactivity (time from logout) threshold for trash removal system. !WARNING! This will remove all grids of the player. Set to 0 to disable.",
@@ -2409,8 +2409,8 @@
       "Placeholder": "0",
       "Suffix": "Hours",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Remove Old Identities",
       "Category": "SE - Trash Removal",
       "Description": "Defines time in hours after which inactive identities that do not own any grids will be removed. Set to 0 to disable.",
@@ -2424,8 +2424,8 @@
       "Placeholder": "0",
       "Suffix": "Hours",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Stop Grids Period",
       "Category": "SE - Trash Removal",
       "Description": "Defines time in minutes after which grids will be stopped if far from player. Set to 0 to disable.",
@@ -2439,8 +2439,8 @@
       "Placeholder": "15",
       "Suffix": "Minutes",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Trash Removal Flags Value",
       "Category": "SE - Trash Removal",
       "Description": "Determined by the combination of checkboxes chosen from the Server Launcher.",
@@ -2453,8 +2453,8 @@
       "DefaultValue": "1562",
       "Placeholder": "1562",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Trash Removal Enabled",
       "Category": "SE - Trash Removal",
       "Description": "Enable trash removal system.",
@@ -2466,11 +2466,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-    {
+  },
+  {
       "DisplayName": "Voxel Age",
       "Category": "SE - Trash Removal",
       "Description": "Only voxel chunks that have been modified longer than this time may be reverted.",
@@ -2484,8 +2484,8 @@
       "Placeholder": "24",
       "Suffix": "Minutes",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Distance Voxel From Grid",
       "Category": "SE - Trash Removal",
       "Description": "Only voxel chunks that are further from grid will be reverted.",
@@ -2499,8 +2499,8 @@
       "Placeholder": "5000",
       "Suffix": "Meters",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Distance Voxel From Player",
       "Category": "SE - Trash Removal",
       "Description": "Only voxel chunks that are further from player will be reverted.",
@@ -2514,8 +2514,8 @@
       "Placeholder": "5000",
       "Suffix": "Meters",
       "EnumValues": {}
-    },
-    {
+  },
+  {
       "DisplayName": "Voxel Reverting Enabled",
       "Category": "SE - Trash Removal",
       "Description": "Enables system for voxel removal",
@@ -2527,11 +2527,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-    },
-	{
+  },
+  {
       "DisplayName": "Instance Name",
       "Category": "SE - Torch",
       "Description": "Define the instance name of the Torch Server.",
@@ -2543,8 +2543,8 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "Instance",
       "EnumValues": {}
-	},
-	{
+  },
+  {
       "DisplayName": "Instance Path",
       "Category": "SE - Torch",
       "Description": "Define the instance path of the Torch Server.",
@@ -2556,8 +2556,8 @@
       "IncludeInCommandLine": false,
       "DefaultValue": ".\\servers",
       "EnumValues": {}
-	},
-	{
+  },
+  {
       "DisplayName": "Autostart",
       "Category": "SE - Torch",
       "Description": "Defines if the Torch server should automatically start upon startup.",
@@ -2569,11 +2569,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-	},
-	{
+  },
+  {
       "DisplayName": "Restart On Crash",
       "Category": "SE - Torch",
       "Description": "Defines if the Torch server should automatically restart if the server encountered a crash.",
@@ -2585,11 +2585,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-	},
-	{
+  },
+  {
       "DisplayName": "Restart On Game Update",
       "Category": "SE - Torch",
       "Description": "Defines if the Torch server should restart if an update to Space Engineers is detected.",
@@ -2601,11 +2601,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-	},
-	{
+  },
+  {
       "DisplayName": "Game Update Restart Delay Mins",
       "Category": "SE - Torch",
       "Description": "Defines how long should the Torch server wait until the game restarts if a game update is detected. Restart On Game Update must be true for this option to work.",
@@ -2618,8 +2618,8 @@
       "DefaultValue": "5",
       "Placeholder": "5",
       "EnumValues": {}
-	},
-	{
+  },
+  {
       "DisplayName": "Get Torch Updates",
       "Category": "SE - Torch",
       "Description": "Enables / Disables automatic updates to the Torch Server.",
@@ -2631,11 +2631,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-	},
-	{
+  },
+  {
       "DisplayName": "Get Plugin Updates",
       "Category": "SE - Torch",
       "Description": "If any, Torch will automatically update any plugins in the Instance if this option is enabled.",
@@ -2647,11 +2647,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-	},
-	{
+  },
+  {
       "DisplayName": "Bypass Is Reloadable Flag",
       "Category": "SE - Torch",
       "Description": "Enable / Disable the optional plugin reload system for the Torch server.",
@@ -2663,11 +2663,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-	},
-	{
+  },
+  {
       "DisplayName": "Tick Timeout",
       "Category": "SE - Torch",
       "Description": "If the Torch server is frozen, it will wait x amount of seconds until it reboots.",
@@ -2679,10 +2679,10 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "60",
       "Placeholder": "60",
-	  "Suffix": "Seconds",
+      "Suffix": "Seconds",
       "EnumValues": {}
-	},
-	{
+  },
+  {
       "DisplayName": "Local Plugins",
       "Category": "SE - Torch",
       "Description": "Enable / Disable the loading of local plugins into the Torch Server",
@@ -2694,11 +2694,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-	},
-	{
+  },
+  {
       "DisplayName": "Disconnect On Restart",
       "Category": "SE - Torch",
       "Description": "Disconnect the player entirely when the server restarts. Prevents auto-reconnecting to the server.",
@@ -2710,11 +2710,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-	},
-	{
+  },
+  {
       "DisplayName": "Chat Name",
       "Category": "SE - Torch",
       "Description": "Defines what the name of the server should be.",
@@ -2726,8 +2726,8 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "Server",
       "EnumValues": {}
-	},
-	{
+  },
+  {
       "DisplayName": "Chat Color",
       "Category": "SE - Torch",
       "Description": "Defines what color should the name of the server be.",
@@ -2739,8 +2739,8 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "Red",
       "EnumValues": {}
-	},
-	{
+  },
+  {
       "DisplayName": "Enable Whitelist",
       "Category": "SE - Torch",
       "Description": "Enable / Disable the whitelist on the server.\nTo add people to the whitelist in-game, do !whitelist add <steamid/username>",
@@ -2752,11 +2752,11 @@
       "IncludeInCommandLine": false,
       "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-	},
-	{
+  },
+  {
       "DisplayName": "Ugc Service Type",
       "Category": "SE - Torch",
       "Description": "Changes the network type of the Torch server. If using crossplay, set to EOS. Otherwise, set to Steam.",
@@ -2766,13 +2766,13 @@
       "IsFlagArgument": false,
       "ParamFieldName": "/TorchConfig/UgcServiceType",
       "IncludeInCommandLine": false,
-	  "DefaultValue": "Steam",
+      "DefaultValue": "Steam",
       "EnumValues": {
-        "Steam": "Steam",
-        "EOS": "EOS"
+          "Steam": "Steam",
+          "EOS": "EOS"
       }
-	},
-	{
+  },
+  {
       "DisplayName": "Branch Name",
       "Category": "SE - Torch",
       "Description": "Determines what Torch Branch to recieve, and updates to get. Use with caution.",
@@ -2782,15 +2782,15 @@
       "IsFlagArgument": false,
       "ParamFieldName": "/TorchConfig/BranchName",
       "IncludeInCommandLine": false,
-	  "DefaultValue": "master",
+      "DefaultValue": "master",
       "EnumValues": {
-        "publicbeta": "publicbeta",
-        "master": "master",
-		"staging": "staging",
-		"dev": "dev"
+          "publicbeta": "publicbeta",
+          "master": "master",
+          "staging": "staging",
+          "dev": "dev"
       }
-	},
-	{
+  },
+  {
       "DisplayName": "Enable Asserts",
       "Category": "SE - Torch",
       "Description": "Determines if Assert Logging should be enabled in the Torch server.",
@@ -2800,13 +2800,13 @@
       "IsFlagArgument": false,
       "ParamFieldName": "/TorchConfig/EnableAsserts",
       "IncludeInCommandLine": false,
-	  "DefaultValue": "false",
+      "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-	},
-	{
+  },
+  {
       "DisplayName": "Send Logs To Keen",
       "Category": "SE - Torch",
       "Description": "Enable / Disable sending server logs to Keen Software House.",
@@ -2816,13 +2816,13 @@
       "IsFlagArgument": false,
       "ParamFieldName": "/TorchConfig/SendLogsToKeen",
       "IncludeInCommandLine": false,
-	  "DefaultValue": "false",
+      "DefaultValue": "false",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-	},
-	{
+  },
+  {
       "DisplayName": "Delete Mini Dumps",
       "Category": "SE - Torch",
       "Description": "Enable / Disable deleting minidumps.",
@@ -2832,11 +2832,51 @@
       "IsFlagArgument": false,
       "ParamFieldName": "/TorchConfig/DeleteMiniDumps",
       "IncludeInCommandLine": false,
-	  "DefaultValue": "false",
+      "DefaultValue": "true",
       "EnumValues": {
-        "True": "true",
-        "False": "false"
+          "True": "true",
+          "False": "false"
       }
-	}
-	
+  },
+  {
+      "DisplayName": "RCON IP",
+      "Category": "SE - Rcon",
+      "Description": "IP for RCON console control.",
+      "Keywords": "RCON,IP,Remote Control,Torch,Server",
+      "FieldName": "IP",
+      "InputType": "text",
+      "IsFlagArgument": false,
+      "ParamFieldName": "/Config/IP",
+      "IncludeInCommandLine": false,
+      "DefaultValue": "0.0.0.0",
+      "Placeholder": "0.0.0.0",
+      "EnumValues": {}
+  },
+  {
+      "DisplayName": "RCON Port",
+      "Category": "SE - Rcon",
+      "Description": "Enable / Disable deleting minidumps.",
+      "Keywords": "RCON,Port,Remote Control,Torch,Server",
+      "FieldName": "IP",
+      "InputType": "number",
+      "IsFlagArgument": false,
+      "ParamFieldName": "/Config/Port",
+      "IncludeInCommandLine": false,
+      "DefaultValue": "27017",
+      "EnumValues": {}
+  },
+  {
+      "DisplayName": "RCON Password",
+      "Category": "SE - Rcon",
+      "Description": "Password for RCON console control.",
+      "Keywords": "RCON,Password,Remote Control,Torch,Server",
+      "FieldName": "PassHash",
+      "InputType": "text",
+      "IsFlagArgument": false,
+      "ParamFieldName": "/Config/PassHash",
+      "IncludeInCommandLine": false,
+      "DefaultValue": "}[hQ'*wo7'RtP(ro=chhKR+|u4d!.1_c.z@0)_,P4H1XWVpF+o",
+      "Placeholder": "Secure Password Here",
+      "EnumValues": {}
+  }
 ]
