@@ -1,4 +1,4 @@
-App.AdminMethod=STDIO
+App.AdminMethod=SourceRCON
 App.ApplicationPort1=27016
 App.ApplicationPort2=8766
 App.RemoteAdminPort=8080
@@ -15,7 +15,7 @@ App.MonitorChildProcessName=Torch.Server.exe
 App.ExitMethod=OS_CLOSE
 App.ExitTimeout=30
 App.ExitString=taskkill /IM
-App.WorkingDir=298740/DedicatedServer64
+App.WorkingDir=298740
 App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.RapidStartup=false

@@ -2832,7 +2832,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "/TorchConfig/DeleteMiniDumps",
         "IncludeInCommandLine": false,
-        "DefaultValue": "false",
+        "DefaultValue": "true",
         "EnumValues": {
             "True": "true",
             "False": "false"
