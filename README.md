@@ -12,9 +12,14 @@ https://cubecoders.com/AMP
 - You cannot send messages in console, you can only read them. This will be eventually fixed by having a compainion plugin.
 - At the current moment, Windows 10/11 Home/Pro won't work because of how torch doesn't like being handled by the Network Service Account AMP Uses to run games. Windows Server 2019/2022 will work fine due to how user permissions are handled. Please note we are working with BishBash777 to get this fixed once and for all.
 ## Installation
-Drag the:`space-engineers-torch.kvp`, `space-engineers-torchconfig.json`, and `space-engineers-torchmetaconfig.json` files into your `C:\AMPDatastore\Instances\{ADS NAME}\Plugins\ADSModule\GenericTemplates` directory.<br>
-Then, restart your ADS server, and it should pop up when you create a new instance.<br>
-This will soon be on the official AMPTemplates list once all issues are worked out, so stay tuned. 
+Installing SE Torch on AMP is very easy! Just follow these 3 simple steps:
+### Step 1:
+In AMP, go to `Configuration` -> `Instance Deployment` and `Add a Configuration Repository`
+### Step 2:
+Add a configuration repository, and put in `sam4413/amp-spaceengineers`
+### Step 3:
+Press `Fetch latest` then go into your instances and create an instance. You should see Space Engineers Torch on there.
+
 ## Current issues
 - On initial install, a premade world will be downloaded from this repository. Torch makes it very annoyingly hard to get a premade world from default means. So until it is fixed on Torch, premade world files are on the repository.
 - If creating a new world, you will have to manually copy over the previous world (if applicable) or upload an existing world from either your local world, server, etc. Ensure `File Manager > Saves > LastSession.sbl` is correct.
