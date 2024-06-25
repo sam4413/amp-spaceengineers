@@ -13,10 +13,5 @@
     "ConfigFile": "./servers/Saves/{{WorldName}}/Sandbox_config.sbc",
     "AutoMap": true,
     "ConfigType": "xml"
-  },
-  {
-    "ConfigFile": "./servers/Rcon.cfg",
-    "AutoMap": true,
-    "ConfigType": "xml"
   }
 ]
