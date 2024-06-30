@@ -83,3 +83,4 @@ App.UpdateSources=@IncludeJson[space-engineers-torchupdates.json]
 Errors=
 isValid=true
 App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
+Meta.AppConfigId=00442a94-83f5-41b8-b222-321cca83099e
