@@ -667,8 +667,8 @@
         "IncludeInCommandLine": false,
         "DefaultValue": "steam",
         "EnumValues": {
-            "steam": "Steam",
-            "eos": "EOS"
+            "steam": "steam",
+            "eos": "eos"
         }
     },
     {
