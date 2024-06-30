@@ -1,3 +1,4 @@
+## Torch on AMP is getting reworked! It is currently being rescripted. For more info, join the discord.
 # Welcome to Torch on AMP!
 These files allows you to run Space Engineers TorchAPI on the CubeCoders AMP Panel.<br>
 https://cubecoders.com/AMP
