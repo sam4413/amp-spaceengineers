@@ -2545,19 +2545,6 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Instance Path",
-        "Category": "SE - Torch",
-        "Description": "Define the instance path of the Torch Server.",
-        "Keywords": "Instance,Torch,Path,InstancePath,Server",
-        "FieldName": "InstancePath",
-        "InputType": "text",
-        "IsFlagArgument": false,
-        "ParamFieldName": "/TorchConfig/InstancePath",
-        "IncludeInCommandLine": false,
-        "DefaultValue": ".\\servers",
-        "EnumValues": {}
-    },
-    {
         "DisplayName": "Autostart",
         "Category": "SE - Torch",
         "Description": "Defines if the Torch server should automatically start upon startup.",
