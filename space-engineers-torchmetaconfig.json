@@ -8,5 +8,10 @@
       "ConfigFile": "./servers/Saves/{{WorldName}}/Sandbox_config.sbc",
       "AutoMap": true,
       "ConfigType": "xml"
-    }
+    },
+    {
+      "ConfigFile": "./Torch.cfg",
+      "AutoMap": true,
+      "ConfigType": "xml"
+    }    
   ]
