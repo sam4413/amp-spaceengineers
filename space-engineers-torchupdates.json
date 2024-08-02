@@ -100,7 +100,7 @@
       "UpdateSourceExtra": null,
       "UpdateSourceTarget": "{{$FullBaseDir}}servers",
       "UnzipUpdateSource": true,
-      "OverwriteExistingFiles": true,
+      "OverwriteExistingFiles": false,
       "ForceDownloadPlatform": 0,
       "UpdateSourceConditionSetting": null,
       "UpdateSourceConditionValue": null,
