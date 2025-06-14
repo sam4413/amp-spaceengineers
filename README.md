@@ -24,7 +24,7 @@ Press `Fetch latest` then go into your instances and create an instance. You sho
 ## Current issues
 - On initial install, a premade world will be downloaded from this repository. Torch makes it very annoyingly hard to get a premade world from default means. So until it is fixed on Torch, premade world files are on the repository.
 - If creating a new world, you will have to manually copy over the previous world (if applicable) or upload an existing world from either your local world, server, etc. Ensure `File Manager > Saves > LastSession.sbl` is correct.
-- When restarting the torch instance, by default it kills and spawns a new process. This screws up how AMP tracks the process as the process id has changed, spawning a zombie process. [I have made a companion plugin that is available on TorchAPI](https://torchapi.com/plugins/view/f702e15e-1f0a-4546-b636-9d3feea41c4e) to fix this issue.
+- When restarting the torch instance, by default it kills and spawns a new process. This screws up how AMP tracks the process as the process id has changed, spawning a zombie process. [I have made a companion plugin that is available on TorchAPI](https://torchapi.com/plugins/view/f702e15e-1f0a-4546-b636-9d3feea41c4e) to fix this issue. The plugin is also installed by default for any new instance of Torch on AMP.
 ## Pictures
 ![Creating a Torch Instance](https://github.com/sam4413/amp-spaceengineers/assets/43707772/b56bc707-4326-45ac-8b69-e6ce45ad03e0)
 ![Torch Instance Running](https://github.com/sam4413/amp-spaceengineers/assets/43707772/7641041f-c82b-4870-9808-af4da809080e)
