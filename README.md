@@ -10,9 +10,9 @@ https://cubecoders.com/AMP
 - Plugin listing is not available. You will need to manually install plugins and add them in via file manager
 - Editing plugin config is not supported.
 - You cannot send messages in console, you can only read them. This will be eventually fixed by having a compainion plugin.
-- **For a seamless out of box experience, Torch on AMP will only work on Windows server 2019/2022/2025 operating systems. Please note that Torch on AMP for Home/Pro instances are not supported, however more information can be found [here](https://github.com/sam4413/amp-spaceengineers/blob/main/RegularWindows.md).
+- **For a seamless out of box experience, Torch on AMP will only work on Windows server 2019/2022/2025 operating systems. Please note that Torch on AMP for Home/Pro instances are not supported, however more information can be found [here](https://github.com/sam4413/amp-spaceengineers/blob/main/RegularWindows.md).**
 ## Installation
-**Please note SE Torch on AMP works only on Windows Server 2019/2022/2025. Home/Pro instances can work, but are not supported due to the extra manual steps needed.**<br>
+Please note SE Torch on AMP works only on Windows Server 2019/2022/2025. Home/Pro instances can work, but are not supported due to the extra manual steps needed.**<br>
 Installing SE Torch on AMP is very easy! Just follow these 3 simple steps:
 ### Step 1:
 In AMP, go to `Configuration` -> `Instance Deployment` and `Add a Configuration Repository`
