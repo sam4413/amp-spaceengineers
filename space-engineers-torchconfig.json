@@ -2562,9 +2562,9 @@
     },
     {
         "DisplayName": "Restart On Crash",
-        "Category": "SE - Torch",
+        "Category": "Hidden Settings",
         "Description": "Defines if the Torch server should automatically restart if the server encountered a crash.",
-        "Keywords": "Restart,Crash,Torch,Server",
+        "Keywords": "",
         "FieldName": "RestartOnCrash",
         "InputType": "checkbox",
         "IsFlagArgument": false,
@@ -2671,15 +2671,15 @@
     },
     {
         "DisplayName": "Local Plugins",
-        "Category": "SE - Torch",
+        "Category": "Hidden Settings",
         "Description": "Enable / Disable the loading of local plugins into the Torch Server",
-        "Keywords": "Local,Plugins,Local Plugins,Torch,Server",
+        "Keywords": "",
         "FieldName": "LocalPlugins",
         "InputType": "checkbox",
         "IsFlagArgument": false,
         "ParamFieldName": "/TorchConfig/LocalPlugins",
         "IncludeInCommandLine": false,
-        "DefaultValue": "false",
+        "DefaultValue": "true",
         "EnumValues": {
             "True": "true",
             "False": "false"
