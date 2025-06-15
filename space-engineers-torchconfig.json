@@ -2546,9 +2546,9 @@
     },
     {
         "DisplayName": "Autostart",
-        "Category": "SE - Torch",
+        "Category": "Hidden Settings",
         "Description": "Defines if the Torch server should automatically start upon startup.",
-        "Keywords": "Autostart,Torch,Start,Server",
+        "Keywords": "",
         "FieldName": "Autostart",
         "InputType": "checkbox",
         "IsFlagArgument": false,
