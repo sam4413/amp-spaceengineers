@@ -2,7 +2,7 @@
 These files allows you to run Space Engineers TorchAPI on the CubeCoders AMP Panel.<br>
 https://cubecoders.com/AMP
 ## You can:
-- Send messages, and send console commands
+- Send and recieve messages, and console commands
 - Edit torch configs
 - Add / remove people on whitelist
 - Add / remove / configure plugins through File Manager
