@@ -1,5 +1,23 @@
 [
     {
+      "UpdateStageName": "SteamCMD Download",
+      "UpdateSourcePlatform": 31,
+      "UpdateSource": 4,
+      "UpdateSourceArch": 3,
+      "UpdateSourceData": "298740",
+      "UpdateSourceArgs": "244850",
+      "UpdateSourceVersion": "{{Stream}}",
+      "UpdateSourceExtra": null,
+      "UpdateSourceTarget": null,
+      "UnzipUpdateSource": false,
+      "OverwriteExistingFiles": false,
+      "ForceDownloadPlatform": 1,
+      "UpdateSourceConditionSetting": null,
+      "UpdateSourceConditionValue": null,
+      "DeleteAfterExtract": false,
+      "OneShot": false
+    },
+    {
       "UpdateStageName": "Create Config Directory",
       "UpdateSourcePlatform": 31,
       "UpdateSource": 1024,
@@ -51,24 +69,6 @@
       "UpdateSourceConditionSetting": null,
       "UpdateSourceConditionValue": null,
       "DeleteAfterExtract": true,
-      "OneShot": false
-    },
-    {
-      "UpdateStageName": "Install Required Plugin",
-      "UpdateSourcePlatform": 31,
-      "UpdateSource": 1,
-      "UpdateSourceArch": 3,
-      "UpdateSourceData": "https://github.com/sam4413/amp-spaceengineers/raw/refs/heads/main/AMPUtilities.zip",
-      "UpdateSourceArgs": "AMPUtilities.zip",
-      "UpdateSourceVersion": null,
-      "UpdateSourceExtra": null,
-      "UpdateSourceTarget": "{{$FullBaseDir}}Plugins",
-      "UnzipUpdateSource": false,
-      "OverwriteExistingFiles": true,
-      "ForceDownloadPlatform": 0,
-      "UpdateSourceConditionSetting": null,
-      "UpdateSourceConditionValue": null,
-      "DeleteAfterExtract": false,
       "OneShot": false
     },
     {
