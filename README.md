@@ -10,7 +10,7 @@ https://cubecoders.com/AMP
 ## Limitations
 - Plugin listing is not available. You will need to manually install plugins and add them in via file manager
 - **For a seamless out of box experience, Torch on AMP will only work on Windows server 2019/2022/2025 operating systems. Please note that Torch on AMP for Home/Pro instances are not supported, however more information can be found [here](https://github.com/sam4413/amp-spaceengineers/blob/main/RegularWindows.md).**
-
+- A required companion plugin must be ran. It is included in the repository, but the torch version can be found [here](https://torchapi.com/plugins/view/5c14d8ea-7032-4db1-a2e6-9134ef6cb8d9)
 ## Installation
 Please note SE Torch on AMP works only on Windows Server 2019/2022/2025. Home/Pro instances can work, but are not supported due to the extra manual steps needed.<br>
 Installing SE Torch on AMP is very easy! Just follow these 3 simple steps:
