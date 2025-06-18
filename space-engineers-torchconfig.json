@@ -258,7 +258,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "UpdatePlugins",
         "IncludeInCommandLine": false,
-        "DefaultValue": "false",
+        "DefaultValue": "true",
         "EnumValues": {
             "True": "true",
             "False": "false"
@@ -275,7 +275,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "/TorchConfig/LocalPlugins",
         "IncludeInCommandLine": false,
-        "DefaultValue": "false",
+        "DefaultValue": "true",
         "EnumValues": {
             "True": "true",
             "False": "false"
