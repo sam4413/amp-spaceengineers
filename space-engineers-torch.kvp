@@ -1,8 +1,7 @@
 Meta.DisplayName=Space Engineers Torch
 Meta.Description=Allow running the TorchAPI program for your Space Engineers server. Compatible with Windows Server 2019/2022 only.
 Meta.Arch=x86_64
-Meta.OS=1
-Meta.Author=sam, Purls
+Meta.Author=sam
 Meta.URL=https://torchapi.com
 Meta.DisplayImageSource=url:https://avatars.githubusercontent.com/u/25021570
 Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$ApplicationPort1}
