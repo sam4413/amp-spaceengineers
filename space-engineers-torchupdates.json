@@ -42,7 +42,7 @@
         "UpdateStageName": "Torch.cfg Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://gist.githubusercontent.com/sam4413/4e86df56a0cd1a108a09e20758e4de2a/raw/d8021de9b8938ba78f5599b5c6e0750e787e0266/Torch.cfg",
+        "UpdateSourceData": "https://raw.githubusercontent.com/sam4413/amp-spaceengineers/main/Torch.cfg",
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UpdateSourceArgs": "Torch.cfg",
         "OverwriteExistingFiles": false,
