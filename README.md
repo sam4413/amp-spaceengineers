@@ -1,6 +1,9 @@
 # Welcome to Torch on AMP!
 These files allows you to run Space Engineers TorchAPI on the CubeCoders AMP Panel.<br>
 https://cubecoders.com/AMP
+## This is a spinoff of Greelan's Torch Template just with a few QOL changes.
+Keep in mind one of the changes is removing linux support, as it runs very slowly.
+
 ## You can:
 - Send and recieve messages, and console commands
 - Edit torch configs
@@ -8,9 +11,7 @@ https://cubecoders.com/AMP
 - Add / remove / configure plugins through File Manager
 - Create a fully functioning torch server from start.
 ## Limitations
-- Plugin listing is not available. You will need to manually install plugins and add them in via file manager
 - **For a seamless out of box experience, Torch on AMP will only work on Windows server 2019/2022/2025 operating systems. Please note that Torch on AMP for Home/Pro instances are not supported, however more information can be found [here](https://github.com/sam4413/amp-spaceengineers/blob/main/RegularWindows.md).**
-- A required companion plugin must be ran. It is included in the repository, but the torch version can be found [here](https://torchapi.com/plugins/view/5c14d8ea-7032-4db1-a2e6-9134ef6cb8d9)
 ## Installation
 Please note SE Torch on AMP works only on Windows Server 2019/2022/2025. Home/Pro instances can work, but are not supported due to the extra manual steps needed.<br>
 Installing SE Torch on AMP is very easy! Just follow these 3 simple steps:
@@ -21,10 +22,6 @@ Add a configuration repository, and put in `sam4413/amp-spaceengineers`
 ### Step 3:
 Press `Fetch latest` then go into your instances and create an instance. You should see Space Engineers Torch on there.
 
-## Current issues
-- On initial install, a premade world will be downloaded from this repository. Torch makes it very annoyingly hard to get a premade world from default means. So until it is fixed on Torch, premade world files are on the repository.
-- If creating a new world, you will have to manually copy over the previous world (if applicable) or upload an existing world from either your local world, server, etc. Ensure `File Manager > Saves > LastSession.sbl` is correct.
-- 
 ## Pictures
 ![Creating a Torch Instance](https://github.com/sam4413/amp-spaceengineers/assets/43707772/b56bc707-4326-45ac-8b69-e6ce45ad03e0)
 ![Torch Instance Running](https://github.com/sam4413/amp-spaceengineers/assets/43707772/7641041f-c82b-4870-9808-af4da809080e)
