@@ -1,4 +1,4 @@
-Meta.DisplayName=Space Engineers (Torch)
+Meta.DisplayName=Space Engineers Torch
 Meta.Description=Space Engineers Dedicated Server with Torch API. Compatable with windows server versions ONLY.
 Meta.OS=Windows
 Meta.Arch=x86_64
@@ -10,7 +10,6 @@ Meta.ConfigManifest=space-engineers-torchconfig.json
 Meta.MetaConfigManifest=space-engineers-torchmetaconfig.json
 Meta.ConfigRoot=space-engineers-torch.kvp
 Meta.MinAMPVersion=2.6.0.0
-
 Meta.SpecificDockerImage=
 Meta.DockerRequired=False
 Meta.ContainerPolicy=Supported
@@ -26,7 +25,6 @@ Meta.BreakingReleaseNotes=
 Meta.AppConfigId=00442a94-83f5-41b8-b222-321cca83099e
 Meta.ImportableExtensions=[]
 Meta.AppIsMultiIPAware=False
-
 App.DisplayName=Space Engineers Torch
 App.RootDir=./space-engineers-torch/
 App.BaseDirectory=./space-engineers-torch/244850/
