@@ -3,7 +3,7 @@ These files allows you to run Space Engineers TorchAPI on the CubeCoders AMP Pan
 https://cubecoders.com/AMP
 This version is similar to the one uploaded [here](https://github.com/Greelan/AMPTemplates/tree/dev) but with the linux section removed.
 
-This repository is mainly used to maintain several games that are already using this template. The old version can be found in the old branch.
+This repository is mainly used to maintain several games that are already using this template.
 
 ## You can:
 - Send and recieve messages, and console commands
