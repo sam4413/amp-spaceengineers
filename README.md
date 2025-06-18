@@ -1,16 +1,19 @@
 # Welcome to Torch on AMP!
 These files allows you to run Space Engineers TorchAPI on the CubeCoders AMP Panel.<br>
 https://cubecoders.com/AMP
+This version is similar to the one uploaded [here](https://github.com/Greelan/AMPTemplates/tree/dev) but with the linux section removed.
+
+This repository is mainly used to maintain several games that are already using this template. The old version can be found in the old branch.
+
 ## You can:
 - Send and recieve messages, and console commands
 - Edit torch configs
 - Add / remove people on whitelist
-- Add / remove / configure plugins through File Manager
+- Add / remove / configure plugins through config
 - Create a fully functioning torch server from start.
 ## Limitations
-- Plugin listing is not available. You will need to manually install plugins and add them in via file manager
 - **For a seamless out of box experience, Torch on AMP will only work on Windows server 2019/2022/2025 operating systems. Please note that Torch on AMP for Home/Pro instances are not supported, however more information can be found [here](https://github.com/sam4413/amp-spaceengineers/blob/main/RegularWindows.md).**
-- A required companion plugin must be ran. It is included in the repository, but the torch version can be found [here](https://torchapi.com/plugins/view/5c14d8ea-7032-4db1-a2e6-9134ef6cb8d9)
+
 ## Installation
 Please note SE Torch on AMP works only on Windows Server 2019/2022/2025. Home/Pro instances can work, but are not supported due to the extra manual steps needed.<br>
 Installing SE Torch on AMP is very easy! Just follow these 3 simple steps:
@@ -33,7 +36,7 @@ Press `Fetch latest` then go into your instances and create an instance. You sho
 
 <hr>
 Please note that these limitations are here mainly due to how AMP works and me being relatively new to making configs.<br>
-This project is still experimental! It may not work for some users. The application was tested using Windows Server 2022. Currently Linux on Torch is in a very *very* buggy state, so Linux support is currently not supported.<br>
+This project is still experimental! It may not work for some users. The application was tested using Windows Server 2022. Linux support is here, however it will suffer significantly in preformance. We recommend using Windows Server if possible. A version with linux can be found ![here](https://github.com/Greelan/AMPTemplates/tree/dev).<br>
 Feel free to contribute to the github anytime!<br>
 <hr>
 If you have any questions, contact @sam44 on Discord.<br>
