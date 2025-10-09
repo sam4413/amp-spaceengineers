@@ -1,3 +1,6 @@
+# As of 10/9/2025, Torch on AMP is now [merged to the official CubeCoders Main Repository](https://github.com/CubeCoders/AMPTemplates/pull/1695)!
+## Because of this, this branch is no longer needed anymore and will be marked as deprecated. It is highly recommended that you switch over to the offical repository! Thank you to everyone who made this possible!
+
 # Welcome to Torch on AMP!
 These files allows you to run Space Engineers TorchAPI on the CubeCoders AMP Panel.<br>
 https://cubecoders.com/AMP
